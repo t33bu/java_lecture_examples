@@ -1,6 +1,6 @@
 # Java Lecture Examples 
 
-For the course Java Programming ID00CS46-3004, autumn 2024.
+For the course **Java Programming ID00CS46-3004**, autumn 2024.
 
 Each directory contains code examples for that lecture. 
 
