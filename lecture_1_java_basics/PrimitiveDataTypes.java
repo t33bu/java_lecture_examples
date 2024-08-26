@@ -1,4 +1,3 @@
-package esim;
 
 import java.util.Arrays;
 

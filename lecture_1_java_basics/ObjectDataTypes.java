@@ -1,4 +1,3 @@
-package esim;
 
 public class ObjectDataTypes {
     public void demo() {
