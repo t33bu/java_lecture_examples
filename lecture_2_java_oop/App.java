@@ -1,24 +1,16 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        SmartMailbox mailbox = new SmartMailbox("Teemu", "Street 1");
+        // First try with class Mailbox
+        Mailbox mailbox = new Mailbox("Teemu", "Street 1");
+        // Second try with class SmartMailbox
+        // SmartMailbox mailbox = new SmartMailbox("Teemu", "Street 1");
 
-        mailbox.setMail("Hello");
+        mailbox.setBill(100); // Note uses overloaded method
+        System.out.println(mailbox.getName() + " received bill for " + mailbox.getBill());
+
+        mailbox.setMail("Tomatoes on sale!");
         String myMail = mailbox.getMail();
-        System.out.println(mailbox.name + " received mail: " + myMail);
-
-        mailbox.setBill(100);
-        System.out.println(mailbox.name + " received bill for " + mailbox.getBill());
-
-        // 1. change to visibility private, for a good reason..
-        // 2. add bill, getter and setter and overload
-        // 3. add class Mail and override toString
-        // 4. add class Postman to deliver Mail
-        // 5. add method to check if address match, then deliver
-
-        // 6. create class SmartMailbox
-        // 7. create alert method
-        // 8. override setmail to create alert
-        
+        System.out.println(mailbox.getName() + " received mail: " + myMail);
     }
 }
