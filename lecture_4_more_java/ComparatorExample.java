@@ -1,6 +1,8 @@
 package lecture_4_more_java;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Arrays;
 
 public class ComparatorExample {
 
