@@ -4,8 +4,8 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        IteratorExample ie = new IteratorExample();
-        ie.demo();    
+        // IteratorExample ie = new IteratorExample();
+        // ie.demo();    
         
         // ArraysExample ae = new ArraysExample();
         // ae.demo();
@@ -15,5 +15,8 @@ public class App {
 
         // ListExample le = new ListExample();
         // le.demo();
+
+        ComparatorExample ce = new ComparatorExample();
+        ce.demo();
     }
 }
