@@ -1,6 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
+        ExceptionExample ee = new ExceptionExample();
+        ee.demo();
+        
+        /* 
         Person a = new Person("Alice", "Street 1");
         System.out.println(a);
         System.out.println(a.address());
@@ -11,5 +15,6 @@ public class App {
 
         // Throws an exception
         // Person c = new Person(null, "Street 3");
+        */
     }
 }
