@@ -9,14 +9,13 @@ public class Student {
         this.name = name;
     }
 
-    // This method must be static as we refer to
-    // static member variable
+    // Note that methods can be static or "normal"
+    // For normal method, an object must be first created
+    // A static method is always available
     public static String getSchool() {
         return school;
     }
 
-    // This method must be static as we refer to
-    // static member variable
     public static void setSchool(String school) {
         Student.school = school;
     }
